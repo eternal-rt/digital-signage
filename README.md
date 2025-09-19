@@ -22,23 +22,6 @@ An **Admin Panel** allows staff to add, edit, or remove entries in each section 
 
 ---
 
-## 📂 Project Structure
-\`\`\`
-digital-signage/
-├── src/
-│   ├── assets/               # Images, logos, backgrounds, flags
-│   ├── components/           # React components (slides & admin)
-│   ├── data/                 # JSON data files (editable)
-│   ├── App.jsx               # Router (Signage / Admin views)
-│   ├── Signage.jsx           # Main rotating signage component
-│   └── config.js             # Global settings (timers, formats)
-├── server.js                 # Express backend for JSON API
-├── package.json              # Dependencies & scripts
-└── DOCUMENTATION.md          # This documentation file
-\`\`\`
-
----
-
 ## 🖥️ Slides & Features
 
 ### Looking Ahead (Announcements)
