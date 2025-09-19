@@ -44,7 +44,7 @@ Displays reminders with title and details. Title auto-updates to [Month] Reminde
 
 ### Weather & Traffic
 Shows current weather + 5-day forecast for up to 4 cities (OpenWeatherMap).  
-Displays **Waze live traffic map** for Nashville, TN.
+Displays **Waze live traffic map** for your specified region/city
 
 ### Message (Vision)
 Displays Company logo and editable company message (e.g., vision/mission).
@@ -52,14 +52,14 @@ Displays Company logo and editable company message (e.g., vision/mission).
 ---
 
 ## 🛠️ Admin Panel
-Accessible at: `http://localhost:5173/admin`  
+Accessible at: `http://localhost:0000/admin`  
 
 Features:  
 - Sidebar navigation for each section  
 - Collapsible entry cards (click to expand & edit)  
 - Add, edit, or delete entries  
 - Save changes directly to JSON files (`src/data/`)  
-- Custom names: **Announcements → Looking Ahead**, **Message → Message (Vision)**  
+- Custom names: **Announcements**, **Message → Message**  
 
 ---
 
