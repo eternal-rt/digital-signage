@@ -4,7 +4,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 The **Digital Signage Application** is a React + Node.js based platform designed to display rotating content on TVs. It automatically cycles through a set of slides every 10 seconds with smooth fade transitions and a progress bar.
 
 Slides cover key categories such as **Looking Ahead (Announcements)**, **Birthdays**, **Events**, **New Hires**, **Promotions**, **Reminders**, **Weather & Traffic**, and a customizable **Message** slide.
@@ -13,7 +13,7 @@ An **Admin Panel** allows staff to add, edit, or remove entries in each section 
 
 ---
 
-## ⚙️ System Requirements
+## System Requirements
 - Node.js v18 or later  
 - npm or yarn package manager  
 - Web browser (Chrome, Edge, or Firefox)  
@@ -22,7 +22,7 @@ An **Admin Panel** allows staff to add, edit, or remove entries in each section 
 
 ---
 
-## 🖥️ Slides & Features
+## Slides & Features
 
 ### Looking Ahead (Announcements)
 Displays upcoming company news. Title + optional details (hidden if 'N/A').
@@ -51,7 +51,7 @@ Displays Company logo and editable company message (e.g., vision/mission).
 
 ---
 
-## 🛠️ Admin Panel
+##  Admin Panel
 Accessible at: `http://localhost:0000/admin`  
 
 Features:  
@@ -63,7 +63,7 @@ Features:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone repository:  
    \`\`\`bash
@@ -97,7 +97,7 @@ Features:
 
 ---
 
-## 📊 Technical Details
+## Technical Details
 - Frontend: React + Vite, TailwindCSS  
 - Backend: Node.js + Express  
 - Data: JSON files served via REST API  
@@ -107,7 +107,7 @@ Features:
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 - Authentication for Admin Panel (SSO/Keycloak)  
 - Rich media support (images, videos, PDFs)  
 - Custom scheduling for slides  
